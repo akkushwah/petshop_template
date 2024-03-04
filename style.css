@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.main{
+  height:100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+.banner{
+  height:10vh;
+  width: 100vw;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid #b1b0b0;
+}
+.items{
+  display:flex;
+  align-items: center;
+  gap:10px;
+}
+.fa-solid{
+  color:#3ec43e;
+  font-size:22px
+}
+
+.navbar{
+  height:7vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline:20px;
+}
+.logo span{
+  padding-left:5px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  display: block;
+  color:black;
+  margin-right: 8px;
+}
+.contact{
+  background-color: #3bcf3b;
+  padding:13px;
+  color:white;
+  font-weight:600;
+}
+.contact:hover{
+  background-color: #22ae22;
+}
+.hero{
+  height:83vh;
+  width: 100vw;
+  background-image:url('https://images.unsplash.com/photo-1507145569372-d69bae8bc9a0?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: top left;
+  padding:50px;
+}
+.hero h1{
+  color:#3bcf3b;
+  padding-top:5rem;
+  font-size:3.5rem;
+  text-transform: uppercase;
+}
+.hero h2{
+  text-transform: uppercase;
+  color:white;
+}
+.hero p{
+  color:white;
+  padding-block:20px 25px;
+  max-width: 60%;
+}
+.hero .btn{
+  padding:15px;
+  color:white;
+  background-color:#3bcf3b ;
+  border:none;
+  border-radius:5px;
+  font-size: 17px;
+  margin-right:30px;
+}
+.hero i{
+  background-color: #3bcf3b;
+  color:white;
+  padding:15px 18px;
+  border-radius: 50%;
+}
+
+.hero .btn:hover{
+  background-color: transparent;
+  border: 1px solid white;
+}
+.hero i:hover{
+  background-color: transparent;
+  border: 1px solid white;
+}
